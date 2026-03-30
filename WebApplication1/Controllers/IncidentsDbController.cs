@@ -141,7 +141,7 @@ namespace WebApplication1.Controllers
 
             return Ok(incidents);
         }
-
+        // Action ajoutée par mon collaborateur
         [HttpPatch("{id}/status")]
         public async Task<IActionResult> PutIncidentStatus(int id, string status)
         {
